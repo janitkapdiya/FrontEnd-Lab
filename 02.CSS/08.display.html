@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Viewport" content="width=device-width, initial-scale=1.0">
+	<title>Display</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		html,body{
+			width: 100%;
+			height: 100%;
+			background-color: #ffffff;
+			font-family: Instrument Serif;
+		}
+
+		h1{
+			display: block;
+			background-color: #f78820;
+			color: #FFFFFF;
+			width: 600px;
+			margin-bottom: 10px;
+		}
+
+		h2{
+			display: inline;
+			background-color: #e33443;
+			color: #FFFFFF;
+		}	
+
+		h3{
+			display: inline-block;
+			background-color: #00613d;
+			color: #FFFFFF;
+			width: 400px;
+			margin-top: 20px;
+		}
+
+		.note{
+			margin-top: 20px;
+		}
+
+		.note__title{
+			background-color: #f78820;
+			color: #FFFFFF;
+			width: 45px;
+		}
+
+		.note__description{
+			background-color: #e33443;
+			color: #FFFFFF;
+			width: 400px;			
+		}
+	</style>
+</head>
+<body>
+	<h1>This is Example of Block. (Heading 1)</h1>
+	<h1>This is Example of Block. (Heading 2)</h1>
+	<br>
+	<h2>This is Example of Inline. (Heading 1)</h2>
+	<h2>This is Example of Inline. (Heading 2)</h2>
+	<br>
+	<h3>This is Example of Inline-Block. (Heading 1)</h3>
+	<h3>This is Example of Inline-Block. (Heading 2)</h3>
+	<br><br><hr>
+	<div class="note">
+		<p class="note__title">Note:</p>
+		<p class="note__description">In Block & Inline-Block Property, We can apply width & Height. In Inline Property, We can apply Width & Height.</p>
+
+	</div>
+</body>
+</html>
